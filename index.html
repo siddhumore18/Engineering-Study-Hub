@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loading-text">
+        <div id="container">
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <h3 id="loading-text1">Loading</h3>
+        </div>
+    </div>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html">
+                <div class="logo"><span>E S H</span></div>
+            </a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" alt="">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        </div>
+        <!-- <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" class="user-icon">
+        </div>-->
+        <div class="nav-right flex-div">
+            <header>
+                <ul class="navlist">
+                    <label for="options"></label>
+                    <select id="options" name="options">
+                        <option value="">Choose Field</option>
+                        <option value="#semester1">Semester 1</option>
+                        <option value="#semester2">Semester 2</option>
+                        <option value="#semester3">semester 3</option>
+                        <option value="#semester4">Semester 4</option>
+                        <option value="#semester5">Semester 5</option>
+                        <option value="#semester6">Semester 6</option>
+                        <option value="#semester7">Semester 7</option>
+                    </select>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="playvideo.html">Videos list</a></li>
+                    <li><a href="pdf.html">PDF's Notes</a></li>
+                    <li><a href="#">Quiz</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="upload.html">Upload</a></li>
+                </ul>
+                <div id="menu-icon" class="bx bx-menu"></div>
+            </header>
+        </div>
+        </div>
+    </nav>
+    <!-------------------sidebar------------------->
+    <!------   <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png" alt="">
+                <P>Home</P>
+            </a>
+            <a href="playvideo.html"><img src="images/explore.png" alt="">
+                <P>Videos list</P>
+            </a>
+            <a href=""><img src="images/subscriprion.png" alt="">
+                <P>PDF's Notes</P>
+            </a>
+            <a href=""><img src="images/library.png" alt="">
+                <P>Quiz</P>
+            </a>
+            <a href=""><img src="images/history.png" alt="">
+                <P>history</P>
+            </a>
+            <a href="login.html"><img src="images/playlist.png" alt="">
+                <P>Login</P>
+            </a>
+            <a href=""><img src="images/messages.png" alt="">
+                <P>About</P>
+            </a>
+            <a href=""><img src="images/show-more.png" alt="">
+                <P>Show more</P>
+            </a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>Subscribed</h3>
+            <a href=""><img src="images/Jack.png" alt="">
+                <P>Siddhu more</P>
+            </a>
+            <a href=""><img src="images/simon.png" alt="">
+                <P>Siddhu more</P>
+            </a>
+            <a href=""><img src="images/tom.png" alt="">
+                <P>Siddhu more</P>
+            </a>
+            <a href=""><img src="images/megan.png" alt="">
+                <P>Siddhu more</P>
+            </a>
+            <a href=""><img src="images/cameron.png" alt="">
+                <P>Siddhu more</P>
+            </a>
+
+        </div>
+    </div>----->
+
+    <!-------------------Landing------------------>
+
+
+    <section id="home" class="hero">
+        <h1 class="glitch" data-text="Engineering Study Hub">Engineering Study Hub</h1>
+        <p class="subtitle">The Future of Engineering Education</p>
+        <a href="#feature" class="cta-button">Explore the Hub</a>
+    </section>
+
+    <!-------------------main------------------->
+    <div class="container">
+        <div class="section">
+            <h2 id="semester1">Semester 1</h2>
+            <ul>
+                <!-- Files will be dynamically added here -->
+                <div class="list-container">
+                    <div id="feature" class="vid-list">
+                        <div class="video"><iframe width="300" height="190"
+                                src="https://www.youtube.com/embed/4ykAepVkG5Y?si=ibxqcWiYOf8OgylB"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                     clipboard-write; encrypted-media; 
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe></div>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <div class="video"><iframe width="300" height="190"
+                                src="https://www.youtube-nocookie.com/embed/videoseries?si=_bYsiA13c1--vrqM&amp;list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html?id=3" target="_blank">
+                            <div class="video"><iframe width="300" height="190"
+                                    src="https://www.youtube-nocookie.com/embed/videoseries?si=zZfPKADUhsonyrM-&amp;list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        </a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html">
+                            <div class="video"><iframe width="300" height="190"
+                                    src="https://www.youtube-nocookie.com/embed/videoseries?si=2InsS0_IB9drYeN0&amp;list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        </a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html"><iframe width="300" height="190"
+                                src="https://www.youtube-nocookie.com/embed/videoseries?si=PDTgUowXlC3_WHUP&amp;list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html"><iframe width="300" height="190"
+                                src="https://www.youtube-nocookie.com/embed/irqbmMNs2Bo?si=XkvfOHknJs3LkTD2"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html"><iframe width="300" height="190"
+                                src="https://www.youtube-nocookie.com/embed/7wnove7K-ZQ?si=LGGT0ttnJeXpzFGo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!---------=-=-=-------->
+
+                </div>
+                <div class="list-container">
+                    <div class="vid-list">
+                        <a href="playvideo.html"><iframe width="300" height="190"
+                                src="https://www.youtube-nocookie.com/embed/videoseries?si=dBzz0AKT5NWvk8_A&amp;list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                        <div class="flex-div">
+                            <img src="images/Jack.png" alt="">
+                            <div class="vid-info">
+                                <a href="playvideo.html">Best Channel To learn Codding</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 id="semester2">Semester 2</h2>
+            <ul>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=XuyTDo2M0DUZeyZC&amp;list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=g3v0auugSOBvofXP&amp;list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=C-j8ypw_BMOkvPIU&amp;list=PLU6SqdYcYsfJ27O0dvuMwafS3X8CecqUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=ssKrmCG4vKerpwPD&amp;list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=eYRs4q9sGu5oYOQd&amp;list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/EExSSotojVI?si=7A-NzLLvb68oVDeD"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=unOm4dqAQQ4fXOuQ&amp;list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=-pc8nV4WQMl1wN9a&amp;list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </ul>
+</div>
+ <div class="section">
+    <h2 id="semester3">Semester 3</h2>
+    <ul>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=OlNDlQYvNNFEtkrs&amp;list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=1J_hffYqVgptDSDA&amp;list=PLIm04ODcLclL5vTT6uAwXBsgJLsZcijRi"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=Evp_ysHiJ5vWFPB4&amp;list=PLzjZaW71kMwScTRKzoasdyB1sX-a9EbFp"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=ER9s3yjvSzv8pHzH&amp;list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/JxgmHe2NyeY?si=T2yqprcEgm_0GNCF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=r6WJKxN83-bjoD7p&amp;list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=Ka1ED4hxNURquqyd&amp;list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=jCuBHML8bM00AxTH&amp;list=PL_8jNcohs27XQfEmWAHCgLFqpsNaWxUSe"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </ul>
+</div>
+ <div class="section">
+    <h2 id="semester4">Semester 4</h2>
+    <ul>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=OJtmPUEUHhEygqko&amp;list=PLD20298E653A970F8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=ZK-jUqDl58IEfGoD&amp;list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=39-KhHhdQhJFHtA1&amp;list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="playvideo.html"><iframe width="300" height="190"
+                        src="https://www.youtube-nocookie.com/embed/videoseries?si=2Y6rKBwXYRDBJDEE&amp;list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="playvideo.html">Best Channel To learn Codding</a>
+
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
