@@ -33,15 +33,7 @@
         <div class="nav-right flex-div">
             <header>
                 <ul class="navlist">
-                    <label for="options"></label>
-                    
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="playvideo.html">Videos list</a></li>
-                    <li><a href="pdf.html">PDF's Notes</a></li>
-                    <li><a href="#">Quiz</a></li>
-                    <li><a href="upload.html">Upload</a></li>
-                    <li><a href="">Login out</a></li>
-
+                    <li><a href="login.html">Login</a></li>
                 </ul>
                 <div id="menu-icon" class="bx bx-menu"></div>
             </header>
@@ -51,31 +43,32 @@
     <div class="card">
         <div class="card2">
             <form class="form">
-                <p id="heading">Upload Content</p>
+                <p id="heading">Sign Up</p>
 
                 <label for="type">Select Type:</label>
                 <div class="field">
                     <select id="type" name="type" required>
-                        <option value="video">Video</option>
-                        <option value="pdf">PDF</option>
+                        <option value="text">Student</option>
+                        <option value="text">Univercity</option>
                     </select><br><br>
                 </div>
-                <label for="semester">Semester:</label>
+                <label for="Name">Name</label>
                 <div class="field">
-                    <input type="text" class="input-field1" name="semester" required><br><br>
+                    <input type="text" class="input-field1" name="Name" required><br><br>
                 </div>
-                <label for="year">Year:</label>
+                <label for="year">Passward</label>
                 <div class="field">
-                    <input type="text" class="input-field1" name="year" required><br><br>
+                    <input type="password" class="input-field1" name="Passward" required><br><br>
                 </div>
-                <label for="year">Subject :</label>
+                <label for="PRN">PRN / UnivercityID</label>
                 <div class="field">
-                    <input type="text" class="input-field1" name="Subject" required><br><br>
+                    <input type="number" class="input-field1" name="PRN" required><br><br>
                 </div>
-                <div class="field">
-                    <input type="file" id="file1" class="input-field1" name="file" required><br><br>
-                </div>
-                <button type="submit" class="button1">Upload</button>
+                <div class="btn">
+                    <button class="button1"><a href="index.html">&nbsp;&nbsp;Login&nbsp;&nbsp;</a></button>
+                    <button class="button1"><a href="login.html">Sign IN</a></button>
+                  </div>
+
             </form>
         </div>
     </div>
