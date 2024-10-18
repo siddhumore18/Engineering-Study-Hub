@@ -18,7 +18,7 @@ const loadingText = document.getElementById('loading-text');
 
 setTimeout(() => {
   loadingText.style.display = 'none';
-}, 6000); // Hide after 6 seconds
+}, 3000); // Hide after 6 seconds
 
 
 // Selection part
