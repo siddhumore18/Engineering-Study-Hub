@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html">
+                <div class="logo"><span>E S H</span></div>
+            </a>
+        </div>
+        <!-- <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" class="user-icon">
+        </div>-->
+        <div class="nav-right flex-div">
+            <header>
+                <ul class="navlist">
+                    <label for="options"></label>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="playvideo.html">Videos list</a></li>
+                    <li><a href="pdf.html">PDF's Notes</a></li>
+                    <li><a href="#">Quiz</a></li>
+                    <li><a href="upload.html">Upload</a></li>
+                    <li><a href="https://www.google.co.in/">Login out</a></li>
+
+                </ul>
+                <div id="menu-icon" class="bx bx-menu"></div>
+            </header>
+        </div>
+        </div>
+    </nav>
+    <div class="card">
+        <div class="card2">
+            <form action="/upload" class="form" method="post" enctype="multipart/form-data">
+                <p id="heading" for="file">Upload Content</p>
+            <div class="field">
+                <input type="text" class="input-field1" name="type" value="pdf" required placeholder="File type (pdf/video)"/>
+            </div>
+                <div class="field">  
+                <input type="text" class="input-field1" name="semester" value="semester1" required placeholder="Semester (e.g., 'semester1')"/>
+            </div>
+                <div class="field">  
+                <input type="text" class="input-field1" name="subject" required placeholder="Subject Name"/>
+            </div>
+                <div class="field">  
+                <input type="text" class="input-field1" name="university" required placeholder="University Name"/> 
+            </div>
+                <input type="file" name="file" required />
+                <button type="submit" class="button1">Upload</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
