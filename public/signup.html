@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html">
+                <div class="logo"><span>E S H</span></div>
+            </a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" alt="">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        </div>
+        <!-- <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" class="user-icon">
+        </div>-->
+        <div class="nav-right flex-div">
+            <header>
+                <ul class="navlist">
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                <div id="menu-icon" class="bx bx-menu"></div>
+            </header>
+        </div>
+        </div>
+    </nav>
+    <div class="card">
+        <div class="card2">
+            <form action="/signup" method="POST" class="form">
+                <p id="heading">Sign Up</p>
+                <div class="field">
+                <select name="userType">
+                    <option value="student">Student</option>
+                    <option value="university">University</option>
+                </select>
+               </div>
+           
+               <div class="field">
+                <input type="text" name="name" placeholder="Name" class="input-field1" required>
+            </div>
+         
+            <div class="field">
+                <input type="email" name="email" placeholder="Email" class="input-field1" required>
+            </div>
+         
+            <div class="field">
+                <input type="password" name="password" placeholder="Password" class="input-field1" required>
+            </div> 
+          
+            <div class="field"> 
+                <input type="text" name="universityId" placeholder="PRN / UniversityID" class="input-field1" required>
+            </div>  
+            <div class="btn">
+                <button type="submit" class="button1">Sign Up</button>
+                <button class="button1"><a href="login.html">Sign IN</a></button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

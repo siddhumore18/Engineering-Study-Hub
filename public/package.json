@@ -1,0 +1,11 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000n\u0000g\u0000i\u0000n\u0000e\u0000e\u0000r\u0000i\u0000n\u0000g\u0000-\u0000S\u0000t\u0000u\u0000d\u0000y\u0000-\u0000H\u0000u\u0000b\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
